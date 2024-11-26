@@ -24,7 +24,7 @@
 "AUDIO_REPLY":
     {
       "description":"Enter yes for your bot to audio reply",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
 "AUTO_SAVE_CONTACTS":
@@ -149,9 +149,14 @@
     "value":"",
     "required": false
   },
-  "ANTIDELETE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+  "ANTIDELETE2" : {
+    "description": "if you want to enable anti delete in conversation put yes else put no",
+    "value": "no",
+        "required": false
+ },
+  "ANTIDELETE1" : {
+    "description": "if you want to enable anti delete messages to be sent to your inbox put yes else put no",
+    "value": "no",
         "required": false
   }
   },
